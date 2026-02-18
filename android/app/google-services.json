@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "64615458679",
+    "project_id": "sellix-3f736",
+    "storage_bucket": "sellix-3f736.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64615458679:android:b2192fc45d56f50af2a372",
+        "android_client_info": {
+          "package_name": "com.sellix.sellix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRU6RbB15Nx1HMT90QmHDImqZDuswqupk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

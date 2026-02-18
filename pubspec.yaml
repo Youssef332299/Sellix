@@ -1,0 +1,117 @@
+name: sellix
+description: "[Sellix] is a smart and easy-to-use POS (Point of Sale) and cashier app
+  designed to help businesses manage sales, invoices, customers, and inventory
+  all in one place.  It is ideal for retail stores, supermarkets, restaurants,
+  cafés, and small to medium-sized businesses looking for a fast and reliable
+  cashier solution.  With [App Name], you can create professional invoices,
+  track payments, manage stock, and monitor your business performance
+  effortlessly."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  # Flutter SDK & Localization
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+#  flutter_localization: ^0.3.3
+  intl: ^0.20.2
+
+  # Firebase
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  cloud_firestore: ^6.1.2
+  firebase_storage: ^13.0.6
+
+  # State Management
+  flutter_bloc: ^9.1.1
+  bloc: ^9.2.0
+  equatable: ^2.0.8
+
+  # QR Codes
+#  qr_code_scanner: ^1.0.1
+
+  # Networking / API
+  retrofit: ^4.9.2
+  dio: ^5.9.1
+
+  # Storage
+  shared_preferences: ^2.5.4
+  flutter_secure_storage: ^10.0.0
+  # hive: ^2.2.3  # مستغنى عنها حسب طلبك
+
+  # Printing / POS (commented-out until ready)
+  # esc_pos_printer: ^4.1.0
+  # esc_pos_utils: ^1.5.0
+  # esc_pos_bluetooth: ^0.5.0
+  printing: ^5.14.2
+  # image: ^4.0.6   # dependency for printing / esc_pos_utils
+
+  # Excel / Reports
+  excel: ^4.0.6
+  syncfusion_flutter_xlsio: ^29.2.11
+#  open_file: ^3.5.10
+#  open_filex: ^4.5.0
+#  open_filex: ^4.7.0
+#  file_picker: ^10.3.1
+
+  # UI / Animations / Fonts
+  lottie: ^3.3.0
+  rive: ^0.14.1
+  google_fonts: ^8.0.0
+  arabic_font: ^0.0.9
+  lucide_icons: ^0.257.0
+  pdf: ^3.11.3
+  fl_chart: ^1.0.0
+  encrypt: ^5.0.3
+  crypto: ^3.0.7
+  animated_text_kit: ^4.3.0
+  confetti: ^0.8.0
+  audioplayers: ^6.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter_icons:
+  android: true
+  ios: true
+  macos: true
+  windows: true
+  linux: true
+  image_path: "assets/images/icon.ico"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/icon.ico"
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/animations/
+    - assets/sounds/
+    - assets/lang/
+    - assets/lottie/
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo/static/Cairo-Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins/Poppins-Italic.ttf
+        - asset: assets/fonts/Poppins/Poppins-Light.ttf
+        - asset: assets/fonts/Poppins/Poppins-ExtraBold.ttf
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+flutter_intl:
+  enabled: true
